@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 
+/**
  * check_cycle - Checks if cycles exists in a list
  * @list: Head pointer to the list
  * Return: 0 if no Cycle, else 1
