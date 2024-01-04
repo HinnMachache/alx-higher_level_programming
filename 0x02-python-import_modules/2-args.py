@@ -1,11 +1,11 @@
 #!/usr/bin/python
 if __name__ == "__main__":
     """List the Argument Passed"""
-    import sys
-    if (sys.argv < 2):
+    from sys import argv
+    if (len(argv) < 2):
         print("0 arguments.")
     else:
-        argv_list = list(sys.argv)
+        argv_list = list(argv)
         argv_list.pop(0)
         argv_len = len(argv_list)
         print("{:n} arguments.".format(argv_len))
