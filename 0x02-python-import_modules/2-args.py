@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 if __name__ == "__main__":
     """List the Argument Passed"""
     from sys import argv
