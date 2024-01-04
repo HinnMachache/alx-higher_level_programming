@@ -1,15 +1,17 @@
-#!/usr/bin/python
 if __name__ == "__main__":
     """List the Argument Passed"""
     from sys import argv
     if (len(argv) < 2):
         print("0 arguments.")
+    elif (len(argv) == 2):
+        print("{} argument:".format(len(argv) - 1))
+        print("{}: {}".format(len(argv) - 1, argv[1]))
+        exit()
     else:
-        argv_list = list(argv)
-        argv_list.pop(0)
-        argv_len = len(argv_list)
-        print("{:n} arguments.".format(argv_len))
-        i = 1
-        for word in argv_list:
-            print("{:n}: {}".format(i, word))
-            i += 1
+        argv.pop(0)
+        print("{:n} arguments.".format(len(argv)))
+        num = 1
+        for index in range(0, len(argv)):
+            print("{:n}: {}".format((num), argv[index]))
+            num += 1
+
