@@ -10,9 +10,8 @@ if __name__ == "__main__":
         exit()
     else:
         argv.pop(0)
-        print("{:n} arguments.".format(len(argv)))
+        print("{:n} arguments:".format(len(argv)))
         num = 1
         for index in range(0, len(argv)):
             print("{:n}: {}".format((num), argv[index]))
             num += 1
-
