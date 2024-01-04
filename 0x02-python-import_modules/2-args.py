@@ -1,5 +1,5 @@
 #!/usr/bin/python
-if __name__ = "__main__":
+if __name__ == "__main__":
     """List the Argument Passed"""
     import sys
     if (sys.argv < 2):
