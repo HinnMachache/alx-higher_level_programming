@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 #0-lookup.py
 """lookup: Returns attributes and Methods of a python
 obbj: Object created
